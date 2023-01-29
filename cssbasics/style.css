@@ -1,0 +1,45 @@
+/*select with class*/
+.blue{
+    color: blue;
+}
+/*normal select*/
+h1{
+    color: aquamarine;
+}
+/*every line select*/
+*{
+    color: rgb(5, 58, 137);
+}
+/*id selector*/
+#csit{
+color: indigo;
+}
+.message{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: green;
+}
+.message2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+}
+*{
+    background-image:url(https://picsum.photos/200/300.webp) ;
+    background-size: cover;
+    background-position: top;
+}
+/*chain  selector*/
+.message{
+    font-family: 'Roboto', sans-serif;
+    background: orange;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*image*/
+img{
+    width: 300px;
+    height: 150px;
+}
+.center{
+    text-align: center;
+}
