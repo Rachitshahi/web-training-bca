@@ -1,0 +1,25 @@
+header{
+    background-color: steelblue;
+    height: 100px;
+}
+
+aside{
+    width: 300px;
+    float: left;
+    background-color: peachpuff;
+    height: 500px;
+}
+
+main{
+    background-color:darkgrey       ;
+    float: left;
+    width: 70%;
+    height: 700px;
+}
+
+footer{
+    clear: left;
+    background-color: aquamarine;
+    height: 200px;
+}
+﻿
