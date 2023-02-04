@@ -32,3 +32,13 @@ header{
     justify-content: space-between;
     height: 400px;
 }
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.images{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
