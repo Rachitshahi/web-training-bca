@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    font-size: 10px;
+    font-family: "Inconsolata";
+}
+.timer-container{
+    background-color: rgb(119, 201, 201);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timer-controls{
+    display: flex;
+}
+.timer-button{
+    background: none;
+    border: 0;
+    color: aliceblue;
+    cursor:pointer;
+    font-size: 2em;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.1);
+    padding: 1em;
+    font-family: "Inconsolata";
+}
+.timer-button:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.timer-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time-left{
+    font-size: 15em;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+}
+.end-time{
+    font-size: 2em;
+}
